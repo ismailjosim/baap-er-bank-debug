@@ -20,7 +20,7 @@ const getTextElementValueById = elementId => {
   return convertNumber;
 }
 
-
+// TODO: SET ELEMENT INNER TEXT VALUE BY ID
 const setTextElementValueById = (elementId, newValue) => {
   const textElement = document.getElementById(elementId);
   textElement.innerText = newValue;

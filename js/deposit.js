@@ -1,4 +1,3 @@
-// DRY ---> Do Not Repeat Yourself
 document.getElementById("btn-deposit").addEventListener("click", () => {
 
   // Fix: new deposit total amount
